@@ -24,14 +24,14 @@ requirements:
     - magicgui
     - napari >=0.4.14
     - napari-plugin-engine >=0.1.4
-    - napari-skimage-regionprops >=0.2.0
     - napari-time-slicer >=0.4.0
     - napari-workflows >=0.1.1
     - numpy !=1.19.4
     - pyperclip
     - python >=3.6
-    - scikit-image
     - toolz
+    - qtpy
+    - typing_extensions
 
 test:
   imports:
