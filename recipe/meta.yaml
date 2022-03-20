@@ -1,5 +1,5 @@
 {% set name = "napari-assistant" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-assistant-{{ version }}.tar.gz
-  sha256: 39f5bc2ac5fa2fb812ff4c62c6f0f7def4ac533ab2f3651ee26a4ba5077a595f
+  sha256: fbdd50c58b653b0a680a934c9785d3d64880bfd7a23ac37bf41ce54601e1532e
 
 build:
   noarch: python
@@ -17,8 +17,7 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
-    - setuptools-scm
+    - python >=3.7
   run:
     - loguru
     - magicgui
