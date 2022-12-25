@@ -1,5 +1,5 @@
 {% set name = "napari-assistant" %}
-{% set version = "0.4.3" %}
+{% set version = "0.4.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-assistant-{{ version }}.tar.gz
-  sha256: c94c7f34630a224c12d13cc3ee2dacf4af58edd611e57834944efe853cff46fa
+  sha256: 7f3963283f9172cfeb7ab29a23e9efe46d465dea134a4134c511f230a80b501a
 
 build:
   noarch: python
