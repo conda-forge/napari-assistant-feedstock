@@ -1,11 +1,11 @@
-About napari-assistant
-======================
+About napari-assistant-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/napari-assistant-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/haesleinhuepf/napari-assistant
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/napari-assistant-feedstock/blob/main/LICENSE.txt)
 
 Summary: A pocket calculator like interface to image processing in napari
 
