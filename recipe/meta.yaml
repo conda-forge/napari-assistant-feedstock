@@ -31,7 +31,7 @@ requirements:
     - napari-workflows >=0.1.1
     - numpy !=1.19.4
     - pyperclip
-    - python >=3.6
+    - python >=3.6, <3.11
     - scikit-image
     - toolz
     - typing_extensions
