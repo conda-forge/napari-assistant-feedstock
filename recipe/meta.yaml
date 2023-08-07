@@ -36,6 +36,7 @@ requirements:
     - toolz
     - typing_extensions
     - qtpy
+    - pyqt
 
 test:
   imports:
