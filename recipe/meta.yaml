@@ -1,5 +1,5 @@
 {% set name = "napari-assistant" %}
-{% set version = "0.4.6" %}
+{% set version = "0.4.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-assistant-{{ version }}.tar.gz
-  sha256: 623dba282b407f84bcb9a08926281e5c47d7ac97c7525d1f06a48d8d8ade01bb
+  sha256: e18e0509c77907dae7b5ec66bebf33ca4fc5833553a3115ecca513f4702e3603
 
 build:
   noarch: python
@@ -28,7 +28,7 @@ requirements:
     - napari-plugin-engine >=0.1.4
     - napari-skimage-regionprops >=0.2.0
     - napari-time-slicer >=0.4.0
-    - napari-workflows >=0.1.1
+    - napari-workflows >=0.2.10
     - numpy !=1.19.4
     - pyperclip
     - python >=3.6, <3.11
